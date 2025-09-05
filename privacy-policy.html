@@ -65,41 +65,46 @@
         <div class="section">
             <h2>📱 How ScanBites Works</h2>
             
-            <h3>Local-Only Operation</h3>
+            <h3>🆓 Free-First Architecture</h3>
             <ul>
+                <li><strong>90% FREE Operation:</strong> Most analysis happens locally on your device with no external calls</li>
                 <li><strong>No Data Collection:</strong> We do not collect, store, or transmit any personal information</li>
                 <li><strong>No User Accounts:</strong> No registration, login, or user profiles required</li>
                 <li><strong>No Analytics:</strong> No usage tracking, crash reporting, or analytics collection</li>
-                <li><strong>No Server Communication:</strong> The app operates entirely on your device</li>
+                <li><strong>Local Intelligence:</strong> Advanced ingredient analysis runs entirely on your device</li>
             </ul>
 
             <h3>Data Processing</h3>
             <ul>
-                <li><strong>API Keys:</strong> Your OpenAI API key is stored locally on your device using secure storage</li>
+                <li><strong>Barcode Scans:</strong> Product barcodes are sent to Open Food Facts API for product information</li>
+                <li><strong>FREE Analysis:</strong> Ingredient intelligence processed locally on your device</li>
+                <li><strong>FREE OCR:</strong> Smart text recognition tries local methods first</li>
+                <li><strong>API Keys (Optional):</strong> Your OpenAI API key is stored securely on your device only if you choose to add one</li>
                 <li><strong>Dietary Preferences:</strong> Your settings are stored locally on your device only</li>
-                <li><strong>Photos:</strong> Images you take are processed locally and sent directly to OpenAI for analysis</li>
-                <li><strong>Barcodes:</strong> Product barcodes are sent directly to Open Food Facts API for product information</li>
+                <li><strong>Photos (Premium Only):</strong> Only sent to OpenAI when you specifically choose "Premium AI OCR"</li>
             </ul>
         </div>
 
         <div class="section">
             <h2>🔗 Third-Party Services</h2>
-            <p>ScanBites integrates with external services, but we do not collect or store any data from these interactions:</p>
+            <p>ScanBites minimally integrates with external services only when necessary:</p>
             
-            <h3>OpenAI API</h3>
-            <ul>
-                <li><strong>Purpose:</strong> AI-powered ingredient analysis from photos</li>
-                <li><strong>Data:</strong> Only the photo you take is sent to OpenAI</li>
-                <li><strong>Storage:</strong> We do not store or have access to your photos or analysis results</li>
-                <li><strong>Privacy:</strong> Governed by OpenAI's privacy policy</li>
-            </ul>
-
-            <h3>Open Food Facts API</h3>
+            <h3>🆓 Open Food Facts API (Always Used)</h3>
             <ul>
                 <li><strong>Purpose:</strong> Product information from barcode scans</li>
                 <li><strong>Data:</strong> Only the barcode number is sent to their API</li>
                 <li><strong>Storage:</strong> We do not store or have access to product data</li>
                 <li><strong>Privacy:</strong> Governed by Open Food Facts' privacy policy</li>
+            </ul>
+
+            <h3>🤖 OpenAI API (Optional Premium Feature)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Premium AI-powered OCR for complex ingredient photos</li>
+                <li><strong>When Used:</strong> Only when you specifically choose "Premium AI OCR" option</li>
+                <li><strong>Data:</strong> Only the photo you take is sent to OpenAI (your choice)</li>
+                <li><strong>Alternative:</strong> FREE OCR is always tried first</li>
+                <li><strong>Storage:</strong> We do not store or have access to your photos or analysis results</li>
+                <li><strong>Privacy:</strong> Governed by OpenAI's privacy policy</li>
             </ul>
         </div>
 
